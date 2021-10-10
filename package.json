@@ -1,13 +1,13 @@
 {
-  "name": "InnovetMQTT",
+  "name": "Innovet Enkele inleidende begrippen op cloud computing en Internet of Things",
   "version": "0.0.0",
-  "description": "MQTT",
+  "description": "Innovet Enkele inleidende begrippen op cloud computing en Internet of Thing",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "keywords": [],
-  "author": "Kris Werbrouck",
+  "author": "Natacha Gesquière",
   "license": "Creative Commons Attribution-ShareAlike 4.0 International License",
   "dependencies": {},
   "devDependencies": {
@@ -16,10 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KrisWerbrouck1/InnovetMQTT.git"
+    "url": "git+https://github.com/KrisWerbrouck1/Innovet-cloudComputing.git"
   },
   "bugs": {
-    "url": "https://github.com/KrisWerbrouck1/InnovetMQTT.git/issues"
+    "url": "https://github.com/KrisWerbrouck1/Innovet-cloudComputing.git/issues"
   },
-  "homepage": "https://github.com/KrisWerbrouck1/InnovetMQTT.git#readme"
+  "homepage": "https://github.com/KrisWerbrouck1/Innovet-cloudComputing.git#readme"
 }
