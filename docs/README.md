@@ -5,6 +5,7 @@ Een lokaal netwerk, een LAN (local area network), is een netwerk dat zich op een
 
 
 ![Voorbeeld van een WAN dat drie LAN’s verbindt.](./assets/WAN.png)
+Figuur 1: Voorbeeld van een WAN dat drie LAN’s verbindt.
 
 De apparaten in een LAN communiceren met elkaar via een router of switch. Als er data verzonden worden van één apparaat in het LAN naar een ander apparaat in het LAN, dan zorgt de router of switch ervoor dat die data terechtkomen bij de juiste bestemmeling. Een LAN is verbonden met het internet via een router en modem. Een WAN maakt meestal gebruik van het internet om de LAN’s met elkaar te verbinden.
 Een toestel dat niet tot het LAN behoort, kan geen toegang krijgen tot de toestellen van het LAN en kan er ook niet mee communiceren. Daarom worden LAN’s bijvoorbeeld ook in luchthavens gebruikt om veiligheidsredenen, alhoewel de gebouwen op een luchthaven toch ook ver van elkaar kunnen staan. 
@@ -17,13 +18,14 @@ Een netwerk kan bv. bestaan uit een server en een aantal clients die de server n
 
 
 ![Client-servernetwerk.](./assets/clientServer.png)
-
+Figuur 2: Client-servernetwerk.
 Elke client krijgt tot een bepaald niveau toegang tot de server. Daar kunnen privacy- en veiligheidsaspecten mee gemoeid zijn. Op een school kunnen bv. data van de leerlingen op de server worden opgeslagen, maar niet iedereen op de school mag toegang hebben tot die data. Er kan op die server ook software staan, bv. om aan tekstverwerking te doen, waartoe wel iedereen, zowel leerlingen als leerkrachten, toegang moet hebben.
 In de praktijk zal een client een aanvraag sturen naar de server. De server verwerkt die aanvraag en stuurt vervolgens een antwoord naar de client. Als de client echter niet over de juiste machtigingen beschikt, dan zal de server het verzoek naar bv. data weigeren. 
 Clients moeten niet altijd ingeschakeld zijn. Een server is normaal gezien wel altijd ingeschakeld, zodat een gebruiker op elk gewenst moment toegang heeft tot zijn bronnen en diensten.
 Er zijn ook netwerken zonder server: peer-to-peernetwerken, zie Figuur 3. Al de computers in zo’n netwerk hebben soortgelijke mogelijkheden en dezelfde toegangsrechten. De peers delen bestanden, programma’s, rekenkracht en internetbandbreedte met elkaar.  Ze kunnen rechtstreeks met elkaar communiceren. Een peer-to-peernetwerk kan bijvoorbeeld geschikt zijn als LAN in een gezinswoning. 
 
 ![Client-servernetwerk.](./assets/peerToPeer.png)
+Figuur 3: Client-servernetwerk.
 
 ## De gelaagde structuur van een computernetwerk  
 
@@ -43,6 +45,7 @@ Stel dat er bepaalde data worden verzonden, dan gebeurt ruwweg het volgende:
 - Het signaal wordt opnieuw getransformeerd naar de oorspronkelijk verzonden data
 
 ![Een gelaagd model.](./assets/gelaagdModel.png)
+Figuur 4: Een gelaagd model.
 
 Dit proces omvat allerlei onderliggende processen en is georganiseerd als een aaneenschakeling van lagen. Laag na laag worden de data voorbereid vooraleer deze worden verstuurd, zoals te zien in figuur 4.
 
@@ -66,6 +69,7 @@ Als een domeinnaam wordt ingegeven in de webbrowser, dan zal de browser de DNS-s
 De meeste diensten die aangeboden worden via het internet, zijn gebaseerd op een client-serverarchitectuur. De clientapplicaties sturen verzoeken naar de servers, die dan een antwoord sturen (zie figuur 5).  
 
 ![Communicatie tussen client en server.](./assets/ClientServer1.png)
+Figuur 5: Communicatie tussen client en server.
 
 Voorbeelden van client-servertoepassingen:
 - Sommige smartphoneapplicaties maken een client van die smartphone. Ze verbinden de smartphone met een server, die dan zorgt voor de rekenkracht die ontbreekt op de smartphone zelf. Daardoor kunnen smartphones steeds meer taken vervullen.  De app Google Translate bijvoorbeeld maakt bij gebruik contact met een server, tenzij men ervoor koos om de software ook offline te kunnen gebruiken en de nodige software op de smartphone werd geïnstalleerd.
