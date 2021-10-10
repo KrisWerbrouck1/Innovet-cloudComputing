@@ -65,7 +65,7 @@ Elke website heeft een unieke locatie op het internet, weergegeven door zijn ‘
 Als een domeinnaam wordt ingegeven in de webbrowser, dan zal de browser de DNS-server contacteren. Op deze server staat een database van de domeinnamen met hun overeenkomstig IP-adres. De browser zal de DNS-server vragen naar het IP-adres van de gewenste website, waarna hij de opgevraagde website zal tonen. DNS is een client-serversysteem.
 De meeste diensten die aangeboden worden via het internet, zijn gebaseerd op een client-serverarchitectuur. De clientapplicaties sturen verzoeken naar de servers, die dan een antwoord sturen (zie figuur 5).  
 
-![Communicatie tussen client en server.](./assets/clientServer1.png)
+![Communicatie tussen client en server.](./assets/ClientServer1.png)
 
 Voorbeelden van client-servertoepassingen:
 - Sommige smartphoneapplicaties maken een client van die smartphone. Ze verbinden de smartphone met een server, die dan zorgt voor de rekenkracht die ontbreekt op de smartphone zelf. Daardoor kunnen smartphones steeds meer taken vervullen.  De app Google Translate bijvoorbeeld maakt bij gebruik contact met een server, tenzij men ervoor koos om de software ook offline te kunnen gebruiken en de nodige software op de smartphone werd geïnstalleerd.
