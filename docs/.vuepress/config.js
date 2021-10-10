@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'nkele inleidende begrippen op cloud computing en Internet of Things',
-  description: 'nkele inleidende begrippen op cloud computing en Internet of Things',
+  title: 'Enkele inleidende begrippen op cloud computing en Internet of Things',
+  description: 'Enkele inleidende begrippen op cloud computing en Internet of Things',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
