@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Innovet MQTT',
-  description: 'Innovet MQTT',
+  title: 'nkele inleidende begrippen op cloud computing en Internet of Things',
+  description: 'nkele inleidende begrippen op cloud computing en Internet of Things',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
@@ -10,7 +10,7 @@ module.exports = {
     sidebar: [
       ['/', 'Home'],
     ],
-    repo: 'https://github.com/KrisWerbrouck1/InnovetMQTT.git',
+    repo: 'https://github.com/KrisWerbrouck1/Innovet-cloudComputing.git',
     docsDir: 'docs',
     docsBranch: 'master'
   },
