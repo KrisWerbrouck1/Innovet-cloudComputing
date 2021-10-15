@@ -1,12 +1,13 @@
 # Enkele inleidende begrippen op cloud computing en Internet of Things
 ## Computernetwerk
 Een computernetwerk bestaat uit apparaten zoals laptops, desktops, smartphones, tablets, een router en een printer die met elkaar verbonden zijn en met elkaar kunnen communiceren. Er kunnen zelfs ‘slimme’ huis-, tuin- en keukenapparaten op dit computernetwerk aangesloten zijn. Zo’n netwerk kan bedraad of draadloos zijn, of een combinatie hiervan.
+
 Een lokaal netwerk, een LAN (local area network), is een netwerk dat zich op een bepaalde plaats bevindt zoals in een gezinswoning, op kantoor of in een school. Een netwerk dat daarentegen apparaten verbindt die geografisch ver van elkaar staan, is een WAN (wide area network, zie Figuur 1). Het internet is een voorbeeld van een WAN: het internet bestaat immers uit allemaal netwerken verbonden met elkaar en het is wereldwijd.
 
 
-![Voorbeeld van een WAN dat drie LAN’s verbindt.](./assets/WAN.png)
+![Voorbeeld van een WAN dat drie LAN’s verbindt.](./assets/WAN.png?style=centerme)
 
-Figuur 1: Voorbeeld van een WAN dat drie LAN’s verbindt.
+->Figuur 1: Voorbeeld van een WAN dat drie LAN’s verbindt.<-
 
 De apparaten in een LAN communiceren met elkaar via een router of switch. Als er data verzonden worden van één apparaat in het LAN naar een ander apparaat in het LAN, dan zorgt de router of switch ervoor dat die data terechtkomen bij de juiste bestemmeling. Een LAN is verbonden met het internet via een router en modem. Een WAN maakt meestal gebruik van het internet om de LAN’s met elkaar te verbinden.
 Een toestel dat niet tot het LAN behoort, kan geen toegang krijgen tot de toestellen van het LAN en kan er ook niet mee communiceren. Daarom worden LAN’s bijvoorbeeld ook in luchthavens gebruikt om veiligheidsredenen, alhoewel de gebouwen op een luchthaven toch ook ver van elkaar kunnen staan. 
@@ -15,7 +16,8 @@ Een toestel dat niet tot het LAN behoort, kan geen toegang krijgen tot de toeste
 ## De elementen van een computernetwerk   
 
 De digitale apparaten in een computernetwerk worden de knopen of nodes van het netwerk genoemd. Een computernetwerk bevat ook verbindingen en heeft dus de structuur van een graaf.  
-Een netwerk kan bv. bestaan uit een server en een aantal clients die de server nodig hebben om bepaalde taken uit te kunnen voeren. De server en de clients zijn dan de knopen . Men spreekt dan van een client-servernetwerk, zoals het voorbeeld in Figuur 2. Een server is dus een (meestal krachtige) computer binnen een netwerk, die beschikt over bronnen (bv. datasets) en software (bv. tekstverwerkingssoftware) die de apparaten in het netwerk, de clients, kunnen gebruiken. De clients zijn dus computers en andere digitale apparaten waarmee gebruikers toegang kunnen krijgen tot een server.
+
+Een netwerk kan bv. bestaan uit een server en een aantal clients die de server nodig hebben om bepaalde taken uit te kunnen voeren. De server en de clients zijn dan de knopen^1. Men spreekt dan van een client-servernetwerk, zoals het voorbeeld in Figuur 2. Een server is dus een (meestal krachtige) computer binnen een netwerk, die beschikt over bronnen (bv. datasets) en software (bv. tekstverwerkingssoftware) die de apparaten in het netwerk, de clients, kunnen gebruiken. De clients zijn dus computers en andere digitale apparaten waarmee gebruikers toegang kunnen krijgen tot een server.
 
 
 ![Client-servernetwerk.](./assets/clientServer.png)
@@ -23,6 +25,7 @@ Een netwerk kan bv. bestaan uit een server en een aantal clients die de server n
 Figuur 2: Client-servernetwerk.
 
 Elke client krijgt tot een bepaald niveau toegang tot de server. Daar kunnen privacy- en veiligheidsaspecten mee gemoeid zijn. Op een school kunnen bv. data van de leerlingen op de server worden opgeslagen, maar niet iedereen op de school mag toegang hebben tot die data. Er kan op die server ook software staan, bv. om aan tekstverwerking te doen, waartoe wel iedereen, zowel leerlingen als leerkrachten, toegang moet hebben.
+
 In de praktijk zal een client een aanvraag sturen naar de server. De server verwerkt die aanvraag en stuurt vervolgens een antwoord naar de client. Als de client echter niet over de juiste machtigingen beschikt, dan zal de server het verzoek naar bv. data weigeren. 
 Clients moeten niet altijd ingeschakeld zijn. Een server is normaal gezien wel altijd ingeschakeld, zodat een gebruiker op elk gewenst moment toegang heeft tot zijn bronnen en diensten.
 Er zijn ook netwerken zonder server: peer-to-peernetwerken, zie Figuur 3. Al de computers in zo’n netwerk hebben soortgelijke mogelijkheden en dezelfde toegangsrechten. De peers delen bestanden, programma’s, rekenkracht en internetbandbreedte met elkaar.  Ze kunnen rechtstreeks met elkaar communiceren. Een peer-to-peernetwerk kan bijvoorbeeld geschikt zijn als LAN in een gezinswoning. 
@@ -141,29 +144,20 @@ Voorbeelden van IoT-toepassingen:
 - Nanobots in ons lichaam.
 - Smart cities. 
 
+## Voetnoten
+1 Ook een router of een switch kan een knoop zijn in een netwerk.
+
 
 ## Bronnen
 
-Isaac Computer Science. Network fundamentals. https://isaaccomputerscience.org/topics/networking
-
-Isaac Computer Science. DNS and the cloud. https://isaaccomputerscience.org/concepts/gcse_net_dns
-
-Isaac Computer Science. Secondary storage. 
-     https://isaaccomputerscience.org/concepts/sys_hard_secondary_storage
-
-Isaac Computer Science. Virtual machines. 
-    https://isaaccomputerscience.org/concepts/sys_os_virtual_machines 
-
-Isaac Computer Science. Client-server technologies. 
-     https://isaaccomputerscience.org/concepts/net_internet_client_server_model
-
-Craig’n’Dave. 22 juni 2017. OCR GCSE 1.4 Types of networks [Video]. 
-     https://www.youtube.com/watch?v=ZAMbMcYqK_0&list=PLCiOXwirraUCTooN8MYg4RDWF3FUC7JBU 
-
-Craig’n’Dave. 19 januari 2020. AQA GCSE (8525) SLR2 Cloud storage [Video]. 
-     https://www.youtube.com/watch?v=b1tXebPtMGg&t=105s
-
-Odun-Ayo, I., Okereke, C., & Evwieroghene, O. (2018). Cloud Computing and Internet of Things - Issues and Developments. 
+* [Isaac Computer Science. Network fundamentals.](https://isaaccomputerscience.org/topics/networking)
+* [Isaac Computer Science. DNS and the cloud.](https://isaaccomputerscience.org/concepts/gcse_net_dns)
+* [Isaac Computer Science. Secondary storage.](https://isaaccomputerscience.org/concepts/sys_hard_secondary_storage)
+* [Isaac Computer Science. Virtual machines.](https://isaaccomputerscience.org/concepts/sys_os_virtual_machines)
+* [Isaac Computer Science. Client-server technologies.](https://isaaccomputerscience.org/concepts/net_internet_client_server_model)
+* [Craig’n’Dave. 22 juni 2017. OCR GCSE 1.4 Types of networks [Video].](https://www.youtube.com/watch?v=ZAMbMcYqK_0&list=PLCiOXwirraUCTooN8MYg4RDWF3FUC7JBU)
+*[Craig’n’Dave. 19 januari 2020. AQA GCSE (8525) SLR2 Cloud storage [Video]. ](https://www.youtube.com/watch?v=b1tXebPtMGg&t=105s)
+* Odun-Ayo, I., Okereke, C., & Evwieroghene, O. (2018). Cloud Computing and Internet of Things - Issues and Developments. 
 
 
 ![Dwengo.](./assets/dwengo.png)
