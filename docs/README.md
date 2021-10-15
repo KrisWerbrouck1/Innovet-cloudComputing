@@ -5,9 +5,9 @@ Een computernetwerk bestaat uit apparaten zoals laptops, desktops, smartphones, 
 Een lokaal netwerk, een LAN (local area network), is een netwerk dat zich op een bepaalde plaats bevindt zoals in een gezinswoning, op kantoor of in een school. Een netwerk dat daarentegen apparaten verbindt die geografisch ver van elkaar staan, is een WAN (wide area network, zie Figuur 1). Het internet is een voorbeeld van een WAN: het internet bestaat immers uit allemaal netwerken verbonden met elkaar en het is wereldwijd.
 
 
-![Voorbeeld van een WAN dat drie LAN’s verbindt.](./assets/WAN.png?style=centerme)
+![Voorbeeld van een WAN dat drie LAN’s verbindt.](./assets/WAN.png)
 
-->Figuur 1: Voorbeeld van een WAN dat drie LAN’s verbindt.<-
+Figuur 1: Voorbeeld van een WAN dat drie LAN’s verbindt.
 
 De apparaten in een LAN communiceren met elkaar via een router of switch. Als er data verzonden worden van één apparaat in het LAN naar een ander apparaat in het LAN, dan zorgt de router of switch ervoor dat die data terechtkomen bij de juiste bestemmeling. Een LAN is verbonden met het internet via een router en modem. Een WAN maakt meestal gebruik van het internet om de LAN’s met elkaar te verbinden.
 Een toestel dat niet tot het LAN behoort, kan geen toegang krijgen tot de toestellen van het LAN en kan er ook niet mee communiceren. Daarom worden LAN’s bijvoorbeeld ook in luchthavens gebruikt om veiligheidsredenen, alhoewel de gebouwen op een luchthaven toch ook ver van elkaar kunnen staan. 
@@ -17,7 +17,7 @@ Een toestel dat niet tot het LAN behoort, kan geen toegang krijgen tot de toeste
 
 De digitale apparaten in een computernetwerk worden de knopen of nodes van het netwerk genoemd. Een computernetwerk bevat ook verbindingen en heeft dus de structuur van een graaf.  
 
-Een netwerk kan bv. bestaan uit een server en een aantal clients die de server nodig hebben om bepaalde taken uit te kunnen voeren. De server en de clients zijn dan de knopen^1. Men spreekt dan van een client-servernetwerk, zoals het voorbeeld in Figuur 2. Een server is dus een (meestal krachtige) computer binnen een netwerk, die beschikt over bronnen (bv. datasets) en software (bv. tekstverwerkingssoftware) die de apparaten in het netwerk, de clients, kunnen gebruiken. De clients zijn dus computers en andere digitale apparaten waarmee gebruikers toegang kunnen krijgen tot een server.
+Een netwerk kan bv. bestaan uit een server en een aantal clients die de server nodig hebben om bepaalde taken uit te kunnen voeren. De server en de clients zijn dan de knopen. Zie voetnoot 1. Men spreekt dan van een client-servernetwerk, zoals het voorbeeld in Figuur 2. Een server is dus een (meestal krachtige) computer binnen een netwerk, die beschikt over bronnen (bv. datasets) en software (bv. tekstverwerkingssoftware) die de apparaten in het netwerk, de clients, kunnen gebruiken. De clients zijn dus computers en andere digitale apparaten waarmee gebruikers toegang kunnen krijgen tot een server.
 
 
 ![Client-servernetwerk.](./assets/clientServer.png)
@@ -72,8 +72,9 @@ Bij versleuteling moet er bovendien extra communicatie gebeuren tussen de encryp
 ### Het internet
 
 Het internet bestaat uit allemaal netwerken verbonden met elkaar en is dus een wereldwijd WAN. Het internet geeft toegang tot het world wide web, waarop men allerhande informatie kan vinden via websites. 
-Elke website heeft een unieke locatie op het internet, weergegeven door zijn ‘Internet Protocol’-adres, kortom IP-adres. IP-adressen bestaan uit een rij cijfers (meestal  vier getallen, elk opgeslagen in 8 bits ) en zijn niet zo gemakkelijk te onthouden, daarom gebruikt men domeinnamen zoals www.aiopschool.be (het IP-adres van de website van AI Op School is 157.193.244.98). De omzetting van de domeinnaam naar het IP-adres gebeurt via het internetprotocol Domain Name System (DNS). 
-Als een domeinnaam wordt ingegeven in de webbrowser, dan zal de browser de DNS-server contacteren. Op deze server staat een database van de domeinnamen met hun overeenkomstig IP-adres. De browser zal de DNS-server vragen naar het IP-adres van de gewenste website, waarna hij de opgevraagde website zal tonen. DNS is een client-serversysteem.
+
+Elke website heeft een unieke locatie op het internet, weergegeven door zijn ‘Internet Protocol’-adres, kortom IP-adres. IP-adressen bestaan uit een rij cijfers (meestal  vier getallen, elk opgeslagen in 8 bits ) en zijn niet zo gemakkelijk te onthouden, daarom gebruikt men domeinnamen zoals www.aiopschool.be (het IP-adres van de website van AI Op School is 157.193.244.98). De omzetting van de domeinnaam naar het IP-adres gebeurt via het internetprotocol Domain Name System (DNS). Zie voetnoot 2 en 3. Als een domeinnaam wordt ingegeven in de webbrowser, dan zal de browser de DNS-server contacteren. Op deze server staat een database van de domeinnamen met hun overeenkomstig IP-adres. De browser zal de DNS-server vragen naar het IP-adres van de gewenste website, waarna hij de opgevraagde website zal tonen. DNS is een client-serversysteem.
+
 De meeste diensten die aangeboden worden via het internet, zijn gebaseerd op een client-serverarchitectuur. De clientapplicaties sturen verzoeken naar de servers, die dan een antwoord sturen (zie figuur 5).  
 
 ![Communicatie tussen client en server.](./assets/ClientServer1.png)
@@ -120,6 +121,7 @@ Voorbeelden van clouddiensten:
 Virtuele machines 
 
 Om een cloud server te beschermen krijgen de gebruikers er vaak toegang toe via een virtuele machine (VM), als het ware een computer in een computer. Als er iets fout loopt in de virtuele machine, bv. de VM is gehackt of vastgelopen, dan kan men de betreffende VM uitschakelen, en worden de gedeelde diensten niet getroffen. 
+
 Eenvoudig gezegd gaat een VM over software die elke combinatie van hardware kan nabootsen binnen een gastheer-systeem. De software die op de VM draait, werkt op net dezelfde manier als dat het met fysieke apparaten zou zijn. Een VM kan dus software runnen op dezelfde manier als een (fysieke) computer. Het gastheer-systeem kan een cloud server zijn, maar ook een laptop thuis of een computer op kantoor.
 
 Enkele voorbeelden van hoe virtuele machines worden ingezet:
@@ -145,7 +147,9 @@ Voorbeelden van IoT-toepassingen:
 - Smart cities. 
 
 ## Voetnoten
-1 Ook een router of een switch kan een knoop zijn in een netwerk.
+1. Ook een router of een switch kan een knoop zijn in een netwerk.
+2. Omdat er een tekort was aan IP-adressen, werden IP-adressen van 8 hexadecimale getallen in het leven geroepen. Voor deze IP-adressen worden 128 bits gebruikt i.p.v. 32 bits bij de vorige standaard; het aantal mogelijke IP-adressen is bij de nieuwe standaard ongeveer 3,4 . 1038 in tegenstelling tot ongeveer 4,3 miljard (= 4,3 . 109) mogelijkheden bij die van 32 bits. Een IP-adres volgens de nieuwe standaard ziet eruit als http://[0:0:0:0:0:ffff:9dc1:f462] (AI Op School), en bestaat dus uit 8 hexadecimale getallen, elk opgeslagen in 16 bits). Zie ook de Python-notebook van Dwengo over IP-adressen.
+3. Een binair getal van 8 bits stelt een natuurlijk getal van 0 t.e.m. 255 (in het tiendelig talstelsel) voor. Voor een hexadecimaal getal, een getal uit het zestiendelig talstelsel, worden met 16 bits de natuurlijke getallen van 0 t.e.m. 65 535 voorgesteld (van 0 t.e.m ffff).  
 
 
 ## Bronnen
@@ -156,7 +160,7 @@ Voorbeelden van IoT-toepassingen:
 * [Isaac Computer Science. Virtual machines.](https://isaaccomputerscience.org/concepts/sys_os_virtual_machines)
 * [Isaac Computer Science. Client-server technologies.](https://isaaccomputerscience.org/concepts/net_internet_client_server_model)
 * [Craig’n’Dave. 22 juni 2017. OCR GCSE 1.4 Types of networks [Video].](https://www.youtube.com/watch?v=ZAMbMcYqK_0&list=PLCiOXwirraUCTooN8MYg4RDWF3FUC7JBU)
-*[Craig’n’Dave. 19 januari 2020. AQA GCSE (8525) SLR2 Cloud storage [Video]. ](https://www.youtube.com/watch?v=b1tXebPtMGg&t=105s)
+* [Craig’n’Dave. 19 januari 2020. AQA GCSE (8525) SLR2 Cloud storage [Video]. ](https://www.youtube.com/watch?v=b1tXebPtMGg&t=105s)
 * Odun-Ayo, I., Okereke, C., & Evwieroghene, O. (2018). Cloud Computing and Internet of Things - Issues and Developments. 
 
 
