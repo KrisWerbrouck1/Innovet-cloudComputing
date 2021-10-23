@@ -1,4 +1,4 @@
-# Enkele inleidende begrippen op cloud computing en Internet of Things
+# Enkele inleidende begrippen op cloud computing en Internet of Things (Natacha Gesquière)
 ## Computernetwerk
 Een computernetwerk bestaat uit apparaten zoals laptops, desktops, smartphones, tablets, een router en een printer die met elkaar verbonden zijn en met elkaar kunnen communiceren. Er kunnen zelfs ‘slimme’ huis-, tuin- en keukenapparaten op dit computernetwerk aangesloten zijn. Zo’n netwerk kan bedraad of draadloos zijn, of een combinatie hiervan.
 
