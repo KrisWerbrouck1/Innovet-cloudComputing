@@ -30,9 +30,9 @@ In de praktijk zal een client een aanvraag sturen naar de server. De server verw
 Clients moeten niet altijd ingeschakeld zijn. Een server is normaal gezien wel altijd ingeschakeld, zodat een gebruiker op elk gewenst moment toegang heeft tot zijn bronnen en diensten.
 Er zijn ook netwerken zonder server: peer-to-peernetwerken, zie Figuur 3. Al de computers in zo’n netwerk hebben soortgelijke mogelijkheden en dezelfde toegangsrechten. De peers delen bestanden, programma’s, rekenkracht en internetbandbreedte met elkaar.  Ze kunnen rechtstreeks met elkaar communiceren. Een peer-to-peernetwerk kan bijvoorbeeld geschikt zijn als LAN in een gezinswoning. 
 
-![Client-servernetwerk.](./assets/peerToPeer.png)
+![Peer-to-peernetwerk.](./assets/peerToPeer.png)
 
-Figuur 3: Client-servernetwerk.
+Figuur 3: Peer-to-peernetwerk.
 
 ## De gelaagde structuur van een computernetwerk  
 
